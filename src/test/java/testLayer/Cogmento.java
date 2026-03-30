@@ -54,6 +54,13 @@ public class Cogmento {
 		driver.findElement(By.xpath("//a[@href='/contacts/new']")).click();
 	}
 	
+	@Test(priority = 3)
+	public void CreateContact() {
+		driver.findElement(By.name("first_name")).sendKeys("Radha");
+	}
+	
+	
+	
 	@AfterTest
 	public void tearDown() {
 		driver.quit();

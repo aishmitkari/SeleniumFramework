@@ -5,6 +5,9 @@
     <classes>
       <class name="testLayer.Cogmento">
         <methods>
+          <include name="validateContactPage"/>
+          <include name="validateCreateContactPage"/>
+          <include name="CreateContact"/>
           <include name="openUrl"/>
           <include name="tearDown"/>
           <include name="loginFunctionality"/>
